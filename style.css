@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background: url(./img/fon.jpg)no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    color: orange;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.container{
+    background-color: gray;
+    width: 1500px;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid orange;
+    border: 2px solid #ffa600;
+    -webkit-box-shadow: 0px 0px 17px 6px #FFA600; 
+    box-shadow: 0px 0px 17px 6px #FFA600;
+}
+.box_ds{
+    width: 250px;
+    height: 150px;
+    background: rgb(244,121,0);
+    background: -moz-linear-gradient(32deg, rgba(244,121,0,1) 14%, rgba(255,0,0,1) 100%);
+    background: -webkit-linear-gradient(32deg, rgba(244,121,0,1) 14%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(32deg, rgba(244,121,0,1) 14%, rgba(255,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f47900",endColorstr="#ff0000",GradientType=1);
+    display: flex;
+}
+.box_spiderman{
+    width: 250px;
+    height: 150px;
+    background: rgb(255,0,0);
+    background: -moz-linear-gradient(32deg, rgba(255,0,0,1) 0%, rgba(196,0,120,1) 49%, rgba(24,0,255,1) 100%);
+    background: -webkit-linear-gradient(32deg, rgba(255,0,0,1) 0%, rgba(196,0,120,1) 49%, rgba(24,0,255,1) 100%);
+    background: linear-gradient(32deg, rgba(255,0,0,1) 0%, rgba(196,0,120,1) 49%, rgba(24,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#1800ff",GradientType=1);
+    display: flex;
+}
+.box_capitan{
+    width: 250px;
+    height: 150px;
+    background: rgb(0,19,255);
+    background: -moz-linear-gradient(32deg, rgba(0,19,255,1) 0%, rgba(128,10,128,1) 48%, rgba(255,0,0,1) 100%);
+    background: -webkit-linear-gradient(32deg, rgba(0,19,255,1) 0%, rgba(128,10,128,1) 48%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(32deg, rgba(0,19,255,1) 0%, rgba(128,10,128,1) 48%, rgba(255,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0013ff",endColorstr="#ff0000",GradientType=1);
+    display: flex;
+}
+.box_thor{
+    width: 250px;
+    height: 150px;
+    background: rgb(238,255,0);
+    background: -moz-linear-gradient(32deg, rgba(238,255,0,1) 0%, rgba(189,200,36,1) 26%, rgba(10,128,75,1) 51%, rgba(12,105,163,1) 75%, rgba(15,0,255,1) 100%);
+    background: -webkit-linear-gradient(32deg, rgba(238,255,0,1) 0%, rgba(189,200,36,1) 26%, rgba(10,128,75,1) 51%, rgba(12,105,163,1) 75%, rgba(15,0,255,1) 100%);
+    background: linear-gradient(32deg, rgba(238,255,0,1) 0%, rgba(189,200,36,1) 26%, rgba(10,128,75,1) 51%, rgba(12,105,163,1) 75%, rgba(15,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeff00",endColorstr="#0f00ff",GradientType=1);
+    display: flex;
+}
+
+.img_1{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    object-fit: contain;
+    bottom: 50px;
+    right: 50px;
+}
+.img_2{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    object-fit: contain;
+    bottom: 20px;
+    right: 70px;
+}
+.img_3{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    object-fit: contain;
+    bottom: 50px;
+    right: 30px;
+}
+.img_4{
+    width: 180px;
+    height: 230px;
+    position: relative;
+    object-fit: contain;
+    bottom: 60px;
+    left: 130px;
+}
+
+h4{
+    font-size: large;
+    position: relative;
+    right: 20px;
+    top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.text_thor{
+    position: relative;
+    right: 140px;
+    font-family: 'Poppins', sans-serif;
+}
